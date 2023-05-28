@@ -1,1 +1,1 @@
-# trybe-exercicios
+# repositório de execícios da trybe
