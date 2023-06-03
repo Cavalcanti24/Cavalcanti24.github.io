@@ -10,9 +10,8 @@ const biggerSmallerNumber = (arrayNumeros) =>{
         }
     }
 
-         return   `Maior: ${bigger}
-                   Menor: ${smaller}`;
+         console.log(`Maior: ${bigger} | Menor: ${smaller}`);
+                   
    
 };
-
 biggerSmallerNumber([0, 34, 100, 2]) ;
