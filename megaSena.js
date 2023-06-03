@@ -1,14 +1,14 @@
-let numerosSorteados  = [];
-const meuJogo = [11, 5, 25, 38, 46, 55];
+const trybeBankCustomers = ['Oliva', 'Nat', 'Gus'];
 
-for(let loop = 0; loop < 6; loop += 1){
- const numeroAleatorio = Math.floor(Math.random() * 60);
- if (numerosSorteados.includes(numeroAleatorio)){
-    numerosSorteados.push(numeroAleatorio);
 
- }else{
-    loop -=1;
- }
-console.log(numerosSorteados);
+function greetCustomer(customer) {
 
-}
+  for (let index = 0; index < customer.length; index += 1) {
+
+    console.log(`Olá, ${customer[index]}. Essa é sua conta do TrybeBank.`);
+
+  }
+
+};
+
+greetCustomer(trybeBankCustomers);
